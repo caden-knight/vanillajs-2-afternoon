@@ -84,7 +84,7 @@ In this step, we'll add a way for our application to `listen` for the mouse to m
 <summary> <code> ./index.html </code> </summary>
 
 ```js
-const mousePosition = { x: 0, y: 0 };
+let mousePosition = { x: 0, y: 0 };
 let drawId;
 
 const getRandomNumber = function(min, max) {
